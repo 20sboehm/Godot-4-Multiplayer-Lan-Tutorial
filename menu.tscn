@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://dydnps0e5o5q1"]
+
+[ext_resource type="Script" uid="uid://3g7wk2y2ssx2" path="res://MultiplayerController.gd" id="1_lti8b"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lti8b")
+
+[node name="Host" type="Button" parent="."]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 44.0
+offset_right = 174.0
+offset_bottom = 83.0
+text = "Host"
+
+[node name="Join" type="Button" parent="."]
+layout_mode = 0
+offset_left = 196.0
+offset_top = 44.0
+offset_right = 316.0
+offset_bottom = 83.0
+text = "Join"
+
+[node name="StartGame" type="Button" parent="."]
+layout_mode = 0
+offset_left = 338.0
+offset_top = 44.0
+offset_right = 458.0
+offset_bottom = 83.0
+text = "Start Game"

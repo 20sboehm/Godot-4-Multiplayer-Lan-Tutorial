@@ -1,6 +1,6 @@
 [gd_scene load_steps=19 format=3 uid="uid://cwld7ti0ms68j"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_3us0m"]
+[ext_resource type="Script" uid="uid://clut7knmufjo0" path="res://player.gd" id="1_3us0m"]
 [ext_resource type="Texture2D" uid="uid://dld54qw3mao0w" path="res://Main Character - Male - Full spritesheet - No Guide.png" id="1_grirq"]
 [ext_resource type="Texture2D" uid="uid://tcgb3bjp6hyi" path="res://Famas.png" id="2_8kqsh"]
 [ext_resource type="PackedScene" uid="uid://lviwd7iyvso6" path="res://Bullet.tscn" id="2_gobh3"]
