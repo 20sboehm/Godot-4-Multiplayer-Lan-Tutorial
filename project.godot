@@ -11,13 +11,13 @@ config_version=5
 [application]
 
 config/name="multiplayer Lan Tutorial"
-run/main_scene="uid://bt13jko8i5tec"
+run/main_scene="uid://dydnps0e5o5q1"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-GameManager="*res://GameManager.gd"
+GameManager="*res://game_manager.gd"
 
 [dotnet]
 
